@@ -1,0 +1,35 @@
+* {
+margin: 0px;
+padding: 0px;
+font-family: Arial, Helvetica, sans-serif;
+box-sizing: border-box;
+}
+body {
+    background-color: #c7d8d8;
+}
+
+.container {
+    margin-top: 5rem;
+    height: 35rem;
+    width: 70rem;
+    background-size: 100% 100%;
+    box-shadow: 20px 20px 10px #808080;
+    animation: slider 20s linear infinite;
+}
+@keyframes slider {
+    0% {
+        background-image: url(images/Slider\ 4.avif);
+    }
+    30% {
+        background-image: url(images/slider\ 5.avif);
+    }
+    60% {
+        background-image: url(images/sloder\ 3.avif);
+    }
+    80% {
+        background-image: url(images/slider\ 1.avif);
+    }
+    100% {
+        background-image: url(images/slider\ 2.avif);
+    }
+}
